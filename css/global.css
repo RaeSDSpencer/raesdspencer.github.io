@@ -49,12 +49,19 @@ img.lead {
   width: 100%;
 
 }
+
+/* Other work module */
 .promolist-four, .promolist-three {
     border: 1px solid #d5d5d5;
     box-sizing: border-box;
-    margin: 30px 0;
-    padding: 13px 16px 18px;
+    margin: 3§0px 0;
+    padding-top: 13px;
+    padding right: 0px;
+    padding-bottom: 18px;
+    padding-left: 100px;
     text-align: center;
+    width: 80%;
+
 }
 .promolist-four > span, .promolist-three > span {
     background-color: #fff;
@@ -84,6 +91,16 @@ img.lead {
 .promolist-four > ul > li {
     width: 25%;
 }
+
+.full-width {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 60px;
+    width: 980px;
+
+}
+/*End of other work module */
+
 #footer{
   padding-top: 100px;
   padding-left: 100px;
