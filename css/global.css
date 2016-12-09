@@ -24,7 +24,7 @@ class {
     padding: 0;
     display: inline-block;
     position: absolute;
-    right: 0px;
+    right: 20px;
 }
 #nav.vertical {
     display: block;
@@ -43,9 +43,50 @@ class {
 }
 #leadimg {
   padding-top: 0px;
+  width: 100%;
 }
-#body{
-  width: 60%;
+img.lead {
+  width: 100%;
+
+}
+.promolist-four, .promolist-three {
+    border: 1px solid #d5d5d5;
+    box-sizing: border-box;
+    margin: 30px 0;
+    padding: 13px 16px 18px;
+    text-align: center;
+}
+.promolist-four > span, .promolist-three > span {
+    background-color: #fff;
+    color: #999;
+    display: inline;
+    font: italic 21px "Times New Roman",Times,serif;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 0 20px;
+    position: relative;
+    text-transform: lowercase;
+    top: -23px;
+}
+.promolist-four > ul::after, .promolist-three > ul::after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+.promolist-four > ul > li, .promolist-three > ul > li {
+    float: left;
+    list-style: outside none none;
+    text-align: center;
+}
+.promolist-four > ul > li {
+    width: 25%;
+}
+#footer{
+  padding-top: 100px;
+  padding-left: 100px;
 }
 a {
   color: #000000;
@@ -59,6 +100,16 @@ p {
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 100;
+	line-height: 36px;
+  width: 60%;
+}
+h1 {
+  padding-left: 100px;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+	font-size: 60px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 800;
 	line-height: 36px;
 }
 @media screen and (max-width: 800px) {
