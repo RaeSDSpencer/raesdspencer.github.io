@@ -41,6 +41,9 @@
 #leadimg {
   padding-top: 0px;
 }
+#body{
+  width: 60%;
+}
 a {
   color: #000000;
   text-decoration: none;
@@ -48,5 +51,11 @@ a {
 p {
   padding-left: 100px;
   position:relative;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 100;
+	line-height: 36px;
 }
 @media screen and (max-width: 800px) {
