@@ -259,7 +259,7 @@ h4{
   min-height:250px;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 768px) {
    #one {
     float: none;
     margin-right:0;
