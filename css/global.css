@@ -84,7 +84,7 @@ nav li {
     padding-right: 11px;
 }
 #home-text{
-	text-align: center; position: absolute; top: 35%; bottom: 50%; width: 100%;
+	text-align: center; position: absolute; top: 27%; bottom: 50%; width: 100%;
 }
 body {
 	background-color: #dfdfdf;
@@ -149,15 +149,15 @@ a {
   text-decoration: none;
 }
 p {
-  padding-left: 0px;
-  position:relative;
+  padding-left: 50px;
+	padding-right: 50px;
+
   font-family: "Montserrat",Helvetica,Arial,sans-serif !important;
 	font-size: 15px;
 	font-style: normal;
 	font-variant: normal;
-	font-weight: 100;
+	font-weight: lighter;
 	line-height: 36px;
-  width: 60%;
 }
 h1 {
   padding-left: 0px;
@@ -166,7 +166,7 @@ h1 {
 	font-size: 60px;
 	font-style: bold;
 	font-variant: normal;
-	line-height: 36px;
+	line-height: 74px;
 	font-weight: bold;
 }
 h2 {
@@ -185,7 +185,7 @@ h3 {
 	font-size: 15px;
 	font-style: normal;
 	font-variant: normal;
-	font-weight: bold;
+	font-weight: lighter;
 	line-height: 36px;
 }
 h4{
